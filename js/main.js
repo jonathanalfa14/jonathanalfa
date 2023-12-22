@@ -61,10 +61,10 @@ sr.reveal(".home__img, .about__subtitle, .about__text, .skills__img", {
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".skills__data, .work__img, .contact__input", { interval: 200 });
 
-// contact
+contact;
 function f1() {
   alert("Terima kasih sudah comment");
   location.replace(
-    "https://wa.me/6281387054195?text=Halo%20Sayang%20Aku%20Mau%20Jadi%20Pacar%20Kamu%20Kok%20"
+    "https://wa.me/6281387054195?text=Aku%20Sudah%20Mengunjungi%20Website%20Kamu%20,Good%20Job%20"
   );
 }
