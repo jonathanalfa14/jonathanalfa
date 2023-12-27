@@ -358,6 +358,72 @@ img {
   transform: scale(1.1);
 }
 
+/* ACHIEVEMENT */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.gallery-item {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gallery img {
+  width: 350%;
+  max-width: 350px;
+  height: auto;
+  transition: 1s;
+  border-radius: 0.5rem;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.modal-content img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #bbb;
+}
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -526,5 +592,15 @@ img {
   }
   .home__img {
     width: 450px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery-item {
+    max-width: 100%;
+  }
+
+  .modal-content {
+    max-width: 100%;
   }
 }

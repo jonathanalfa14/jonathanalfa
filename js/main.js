@@ -55,9 +55,12 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".home__data, .about__img, .skills__subtitle, .skills__text", {});
-sr.reveal(".home__img, .about__subtitle, .about__text, .skills__img", {
-  delay: 400,
-});
+sr.reveal(
+  ".home__img, .about__subtitle, .about__text, .skills__img, .gallery-item",
+  {
+    delay: 400,
+  }
+);
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".skills__data, .work__img, .contact__input", { interval: 200 });
 
@@ -68,3 +71,28 @@ function f1() {
     "https://wa.me/6281387054195?text=Aku%20Sudah%20Mengunjungi%20Website%20Kamu%20,Good%20Job%20"
   );
 }
+
+let userName = prompt("Masukkan nama Anda dibawah!");
+document.getElementById("username").innerText = userName;
+
+// MODAL BOX
+function openModal(imagePath) {
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("modalImage");
+
+  modal.style.display = "block";
+  modalImg.src = imagePath;
+}
+
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
+
+// Close modal if the user clicks outside the modal content
+window.onclick = function (event) {
+  var modal = document.getElementById("myModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
