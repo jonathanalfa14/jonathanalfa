@@ -64,6 +64,7 @@ sr.reveal(
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".skills__data, .work__img, .contact__input", { interval: 200 });
 
+// Link masuk di Whatsapp
 contact;
 function f1() {
   alert("Terima kasih sudah comment");
@@ -72,6 +73,7 @@ function f1() {
   );
 }
 
+// Username pengunjung web
 let userName = prompt("Masukkan nama Anda dibawah!");
 document.getElementById("username").innerText = userName;
 
