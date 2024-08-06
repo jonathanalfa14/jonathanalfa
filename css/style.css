@@ -135,7 +135,7 @@ a.nav__link {
 }
 
 a.nav__logo {
-  color: rgb(48, 162, 255);
+  color: white;
 }
 
 @media screen and (max-width: 767px) {
