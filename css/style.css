@@ -7,7 +7,7 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 340;
   --first-color: hsl(var(--hue-color), 100%, 15%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -171,7 +171,7 @@ a.nav__logo {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: rgb(48, 162, 255);
+  background-color: rgb(177, 49, 32);
 }
 
 .nav__logo {
@@ -221,7 +221,7 @@ h1.home__title {
 }
 
 .home__title-color {
-  color: rgb(48, 162, 255);
+  color: rgb(177, 49, 32);
 }
 
 .home__social {
