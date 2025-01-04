@@ -69,7 +69,7 @@ contact;
 function f1() {
   alert("Terima kasih sudah comment");
   location.replace(
-    "https://wa.me/6281387054195?text=Aku%20Sudah%20Mengunjungi%20Website%20Kamu%20,Good%20Job%20"
+    "https://wa.me/6282231551954?text=Aku%20Sudah%20Mengunjungi%20Website%20Kamu%20,Good%20Job%20"
   );
 }
 
