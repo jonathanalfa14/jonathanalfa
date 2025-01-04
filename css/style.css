@@ -248,7 +248,7 @@ h1.home__title {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: rgb(206, 75, 0);
 }
 
 .home__blob-img {
