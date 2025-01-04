@@ -7,9 +7,9 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 340;
-  --first-color: hsl(var(--hue-color), 100%, 15%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --hue-color: 30;
+  --first-color: hsl(var(--hue-color), 100%, 50%);
+  --second-color: hsl(var(--hue-color), 66%, 42%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -51,7 +51,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: white;
+  background-color: rgb(255, 246, 230);
 }
 
 h1,
@@ -171,7 +171,7 @@ a.nav__logo {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: rgb(177, 49, 32);
+  background-color: rgb(206, 75, 0);
 }
 
 .nav__logo {
@@ -221,7 +221,7 @@ h1.home__title {
 }
 
 .home__title-color {
-  color: rgb(177, 49, 32);
+  color: rgb(206, 75, 0);
 }
 
 .home__social {
@@ -253,6 +253,7 @@ h1.home__title {
 
 .home__blob-img {
   width: 450px;
+  transform: translateX(-25px);
 }
 
 /*BUTTONS*/
