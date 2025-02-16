@@ -454,6 +454,23 @@ h1.home__title {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+.contact__text {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact__form {
+  display: flex;
+  justify-content: center; /* Pusatkan tombol di tengah */
 }
 
 .contact__button {
@@ -462,7 +479,6 @@ h1.home__title {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
 }
 
 /* ===== FOOTER =====*/
@@ -537,8 +553,10 @@ h1.home__title {
     padding-top: 2rem;
   }
   .contact__form {
-    width: 360px;
-    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Memastikan tombol ada di tengah */
+    text-align: center;
   }
   .contact__container {
     justify-items: center;
